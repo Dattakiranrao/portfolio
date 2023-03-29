@@ -1,0 +1,108 @@
+.projects__img {
+    height: 250px;
+    width: 450px;
+}
+
+.projects__ul {
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects__li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    margin-bottom: 5px;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+}
+
+.li__button {
+    position: absolute;
+    display: none;
+    outline: none;
+    background: #46a5e9;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: none;
+    // border: 1px solid #46a5e9;
+    border-radius: 20px;
+    // animation: fadeIn 1s 1.8s backwards;
+    color: white;
+}
+
+.projects__li:hover {
+    opacity: 0.8 !important;
+    filter: alpha(opacity=70) !important;
+    z-index: 0;
+
+    .li__button {
+        display: block;
+        z-index: 9999;
+    }
+}
+
+.button__modifer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+}
+
+.work__flat-button {
+    text-transform: uppercase;
+    cursor: pointer;
+    color:white;
+    background: #46a5e9;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 25px;
+    border: 1px solid #46a5e9;
+    border-radius: 20px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+}
+
+.work-container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 556px;
+    position: absolute;
+    top: 5;
+    opacity: 0;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
+
+.button_a {
+    // color: white;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons__link {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.logo-container {
+    z-index: 0;
+    width: 600px;
+    height: 809px;
+    position: absolute;
+    right: 15%;
+
+    .solid-logo {
+        padding-left: 100px;
+        width: 100%;
+    }
+}
+
+.logo__container-dark {
+    z-index: 0;
+    width: 600px;
+    height: 809px;
+    position: absolute;
+    right: 15%;
+
+    .solid-logo {
+        padding-top: 100px;
+        padding-left: 100px;
+        width: 100%;
+    }
+}
